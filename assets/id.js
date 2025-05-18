@@ -18,7 +18,7 @@ if (date.getHours() >= 18){
 document.querySelector(".welcome").innerHTML = welcome;
 
 function toHome(){
-    location.href = 'home.html?' + params.toString();
+    location.href = '/adda/home?' + params.toString();
 }
 
 var input = document.querySelector(".password_input");
